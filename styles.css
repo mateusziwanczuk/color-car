@@ -250,12 +250,19 @@ hr {
 /********************************* RESPONSIBITY *******************************/
 
 @media (max-width: 1420px) {
+    .header {
+        background-attachment: fixed;
+    }
     .hobby__img {
         width:49.7%;
     }
+    
 }
 
 @media (max-width: 1150px) {
+    .header {
+        background-attachment: fixed;
+    }
     .hobby__img {
         width:49.6%;
     }
@@ -281,6 +288,9 @@ hr {
 }
 
 @media (max-width: 666px) {
+    .header {
+        background-attachment: fixed;
+    }
     .skills {
         padding: 3vw 0;
         width: 30vw;
@@ -303,6 +313,9 @@ hr {
 }
 
 @media (max-width: 500px) {
+    .header {
+        background-attachment: fixed;
+    }
     body {
         font-size: 12px;
         line-height: 180%;
@@ -349,6 +362,9 @@ hr {
 }
 
 @media (orientation: portrait) {
+    .header {
+        background-attachment: fixed;
+    }
     .hobby__img {
         width: 100%;
     }
@@ -368,6 +384,9 @@ hr {
 }
 
 @media (max-height: 630px) {
+    .header {
+        background-attachment: fixed;
+    }
     nav {
         margin-top: 0;
         margin-left: 0;
