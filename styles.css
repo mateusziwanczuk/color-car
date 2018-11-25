@@ -75,7 +75,7 @@ nav a:hover {
 /*VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV MAIN VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
 
 .main {
-    margin: 10ex auto;
+    margin: 6ex auto;
     max-width: 65%;
     text-align: justify;
 }
@@ -84,6 +84,7 @@ nav a:hover {
     font-size: 1.5rem;
     letter-spacing: 0.5ch;
     text-align: center;
+    padding-top: 3ex;
 }
 
 /********************************* ABOUT ME *********************************/
@@ -127,14 +128,36 @@ hr {
 
 /********************************* SKILLS ************************************/
 
+.skills__container {
+    background-attachment: fixed;
+    background-image: url(img/skills.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.skills__padding {
+    padding: 5ch 0 5ch 20ch;
+}
+
+.skills__container span {
+    text-align: center;
+}
+
+.skills__h {
+    margin: 1ch 1ch 1ch 8ch; 
+}
+
 .skills {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     border: 1px solid rgba(204, 204, 204, 0.932);
     border-radius: 10px;
-    float: left;
-    margin: 1ch 1ch 1ch 0;
+    margin: 1ch 1ch 1ch 2ch; 
     padding: 1.5vw 0;
-    text-align: center;
     width: 10vw;
+    background-color: white;
+    
 }
 
 .skills:hover {
@@ -223,9 +246,6 @@ hr {
 /********************************* FOOTER ************************************/
 
 .footer {
-}
-
-.footer {
     background-color: #000000;
     border-top: 3px solid rgb(25, 113, 196);
     color: rgb(25, 113, 196);
@@ -246,7 +266,7 @@ hr {
     border: 2px solid white;
     border-radius: 50%;
     padding: 0;
-    margin: 0 0 0 1%;
+    margin: 0 0 0 2%;
 }
 
 /********************************* RESPONSIBITY *******************************/
@@ -262,8 +282,6 @@ hr {
         width:49.6%;
     }
     .skills {
-        padding: 3vw 0;
-        width: 14vw;
     }  
     nav a {
         font-size: 2vw;
@@ -280,14 +298,12 @@ hr {
         padding: 3vw 0;
         width: 30vw;
     }  
-    .software {
-        margin-top: 20%;
-    }
-    .others {
-        margin-top: -4vh;
-    }
-    .skills_h {
+    .skills__padding {
+        padding: 5ch 0 10ch 0ch;
         text-align: center;
+    }
+    .skills__h {
+        margin: 3ch 1ch 1ch 1ch; 
     }
     .contact {
         width: 100%;
@@ -414,5 +430,6 @@ hr {
         padding: 2ex;
         text-align: center;
         width: 100%;
+        
     }
 }
