@@ -161,11 +161,14 @@ p {
 /*********************************************************************************/
 
 .skills__container {
+	background: url(img/skills2.jpeg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background: url(img/skills2.jpeg);
+	display: flex;
+	flex-direction: column;
 }
+
 .skills {
 	background-color: white;
     border: 1px solid rgba(204, 204, 204, 0.932);
@@ -175,7 +178,7 @@ p {
     justify-content: space-evenly;
     margin: 1ch 1ch 1ch 2ch; 
     padding: 1.5vw 0;
-    width: 12vw;
+    width: 25%;
 }
 
 .skills__header {
@@ -464,10 +467,15 @@ p {
 		margin-left: 140px;
 	}
 	.main__header {
-		font-size: 6vw;
+		letter-spacing: 0.5ch;
 		margin: 0 auto;
 	}
-
+	.skills {
+		font-size: 0.7rem;
+	}
+	.project__container {
+		width: 90%;
+	}
 }
 
 
