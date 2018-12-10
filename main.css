@@ -461,7 +461,7 @@ p {
 		margin-left: 140px;
 	}
 	.menu__switch:checked ~ .hero__img {
-		margin-left: 120px;
+		margin-left: 140px;
 	}
 	.main__header {
 		font-size: 6vw;
